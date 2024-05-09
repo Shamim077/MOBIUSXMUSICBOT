@@ -5,7 +5,7 @@ from ARYAN.utils.errors import capture_err
 import httpx 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-start_txt = """
+aryan_op = """
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ
 """
 
@@ -24,7 +24,7 @@ async def start(_, msg):
     
     await msg.reply_photo(
         photo="https://te.legra.ph/file/7ec3b010624cc49644454.jpg",
-        caption=start_txt,
+        caption=aryan_op,
         reply_markup=reply_markup
     )
  
