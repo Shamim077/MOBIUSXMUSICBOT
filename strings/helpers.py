@@ -15,7 +15,6 @@ HELP_1 = """<b><u>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :</b></u>
 
 /queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.
 
-<b>ʙᴀɴ:</b> <code>𝐒ᴘᴇᴄɪᴀʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐒ᴜᴘᴘᴏʀᴛ 𝐀ʟʟ 𝐄xᴀᴍᴘʟᴇ  - ᴇᴍᴍᴀ ʙᴀɴ ᴇᴍᴍᴀ ᴜɴʙᴀɴ ᴇᴍᴍᴀ ᴘʀᴏᴍᴏᴛᴇ..... 𝚎𝚝𝚌</code>
 """
 
 HELP_2 = """
@@ -158,4 +157,24 @@ HELP_15 = """
 
 /speed or /playback : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ɢʀᴏᴜᴘ.
 /cspeed or /cplayback : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ᴄʜᴀɴɴᴇʟ.
+"""
+
+HELL_16 = """
+<b><u>ᴀᴄᴛɪᴏɴ ᴄᴏᴍᴍᴀɴᴅꜱ: :</b></u>
+
+ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ Bᴀɴs & Mᴜᴛᴇ :
+
+ /kickme: kicks the user who issued the command
+
+ Admins only:
+ /ban : bans a user. (via handle, or reply)
+ /sban : Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
+ /tban  x(m/h/d): bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+ /unban : unbans a user. (via handle, or reply)
+ /kick : kicks a user out of the group, (via handle, or reply)
+ /mute : silences a user. Can also be used as a reply, muting the replied to user.
+ /tmute  x(m/h/d): mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
+ /unmute : unmutes a user. Can also be used as a reply, muting the replied to user.
+
+<b>ʙᴀɴ:</b> <code>𝐒ᴘᴇᴄɪᴀʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐒ᴜᴘᴘᴏʀᴛ 𝐀ʟʟ 𝐄xᴀᴍᴘʟᴇ  - ᴇᴍᴍᴀ ʙᴀɴ ᴇᴍᴍᴀ ᴜɴʙᴀɴ ᴇᴍᴍᴀ ᴘʀᴏᴍᴏᴛᴇ..... 𝚎𝚝𝚌</code>
 """
