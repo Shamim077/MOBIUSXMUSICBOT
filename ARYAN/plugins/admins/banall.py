@@ -1,9 +1,9 @@
-from ARYAN import app
+from GOJO import app
 from config import OWNER_ID
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from ARYAN.utils.aryan_ban import admin_filter
-from ARYAN.misc import SUDOERS
+from GOJO.utils.gojo_ban import admin_filter
+from GOJO.misc import SUDOERS
 
 BOT_ID = app.me.id  # Corrected this line
 
@@ -16,7 +16,7 @@ async def ban_all(_, msg):
         async for member in app.get_chat_members(chat_id):       
             try:
                 await app.ban_chat_member(chat_id, member.user.id)
-                await msg.reply_text(f"**‣ ᴏɴᴇ ᴍᴏʀᴇ ʙᴀɴɴᴇᴅ.**\n\n➻ {member.user.mention}")                    
+                await msg.reply_text(f"**‣ ANOTHER ONE BITES THE DUST....!.**\n\n➻ {member.user.mention}")                    
             except Exception:
                 pass
     else:
