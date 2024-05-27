@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils.database import (
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
