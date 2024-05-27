@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from ARYAN import app
-from ARYAN.misc import db
-from ARYAN.utils import ARYANBin, get_channeplayCB, seconds_to_min
-from ARYAN.utils.database import get_cmode, is_active_chat, is_music_playing
-from ARYAN.utils.decorators.language import language, languageCB
-from ARYAN.utils.inline import queue_back_markup, queue_markup
+from GOJO import app
+from GOJO.misc import db
+from GOJO.utils import ARYANBin, get_channeplayCB, seconds_to_min
+from GOJO.utils.database import get_cmode, is_active_chat, is_music_playing
+from GOJO.utils.decorators.language import language, languageCB
+from GOJO.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
