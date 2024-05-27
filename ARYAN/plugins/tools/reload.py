@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from ARYAN import app
-from ARYAN.core.call import ARYAN
-from ARYAN.misc import db
-from ARYAN.utils.database import get_assistant, get_authuser_names, get_cmode
-from ARYAN.utils.decorators import ActualAdminCB, AdminActual, language
-from ARYAN.utils.formatters import alpha_to_int, get_readable_time
+from GOJO import app
+from GOJO.core.call import ARYAN
+from GOJO.misc import db
+from GOJO.utils.database import get_assistant, get_authuser_names, get_cmode
+from GOJO.utils.decorators import ActualAdminCB, AdminActual, language
+from GOJO.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
