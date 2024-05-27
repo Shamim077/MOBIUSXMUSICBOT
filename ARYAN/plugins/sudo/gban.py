@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils import get_readable_time
-from ARYAN.utils.database import (
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils import get_readable_time
+from GOJO.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from ARYAN.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from ARYAN.utils.decorators.language import language
-from ARYAN.utils.extraction import extract_user
+from GOJO.utils.decorators.language import language
+from GOJO.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
