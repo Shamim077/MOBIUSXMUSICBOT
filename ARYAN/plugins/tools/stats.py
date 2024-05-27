@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from ARYAN import app
-from ARYAN.core.userbot import assistants
-from ARYAN.misc import SUDOERS, mongodb
-from ARYAN.plugins import ALL_MODULES
-from ARYAN.utils.database import get_served_chats, get_served_users, get_sudoers
-from ARYAN.utils.decorators.language import language, languageCB
-from ARYAN.utils.inline.stats import back_stats_buttons, stats_buttons
+from GOJO import app
+from GOJO.core.userbot import assistants
+from GOJO.misc import SUDOERS, mongodb
+from GOJO.plugins import ALL_MODULES
+from GOJO.utils.database import get_served_chats, get_served_users, get_sudoers
+from GOJO.utils.decorators.language import language, languageCB
+from GOJO.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
