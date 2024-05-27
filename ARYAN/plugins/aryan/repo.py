@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from ARYAN import app
-from ARYAN.utils.errors import capture_err
+from GOJO import app
+from GOJO.utils.errors import capture_err
 import httpx 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -16,7 +16,7 @@ aryan_op = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://github.com/THEMADMAXPRO/ARYANMUSIC")
+          InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://github.com/Shamim077/MOBIUSXMUSICBOT")
         ],
         ]
     
