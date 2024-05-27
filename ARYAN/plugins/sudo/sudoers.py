@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils.database import add_sudo, remove_sudo
-from ARYAN.utils.decorators.language import language
-from ARYAN.utils.extraction import extract_user
-from ARYAN.utils.inline import suppclose_markup
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils.database import add_sudo, remove_sudo
+from GOJO.utils.decorators.language import language
+from GOJO.utils.extraction import extract_user
+from GOJO.utils.inline import suppclose_markup
 from config import BANNED_USERS, OWNER_ID
 
 
