@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils.database import add_off, add_on
-from ARYAN.utils.decorators.language import language
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils.database import add_off, add_on
+from GOJO.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
