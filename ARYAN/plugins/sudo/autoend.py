@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils.database import autoend_off, autoend_on
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)
