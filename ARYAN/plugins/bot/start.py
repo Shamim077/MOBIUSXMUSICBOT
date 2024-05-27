@@ -6,11 +6,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from ARYAN import app
-from ARYAN.misc import _boot_
-from ARYAN.plugins.sudo.sudoers import sudoers_list
-from ARYAN.utils import bot_sys_stats
-from ARYAN.utils.database import (
+from GOJO import app
+from GOJO.misc import _boot_
+from GOJO.plugins.sudo.sudoers import sudoers_list
+from GOJO.utils import bot_sys_stats
+from GOJO.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -18,9 +18,9 @@ from ARYAN.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from ARYAN.utils.decorators.language import LanguageStart
-from ARYAN.utils.formatters import get_readable_time
-from ARYAN.utils.inline import first_page, private_panel, start_panel
+from GOJO.utils.decorators.language import LanguageStart
+from GOJO.utils.formatters import get_readable_time
+from GOJO.utils.inline import first_page, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
