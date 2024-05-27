@@ -1,9 +1,9 @@
 <h2 align="center">
     
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ᴡᴇʟᴄᴏᴍᴇ+ᴛᴏ+ᴀʀʏᴀɴ+✘+ᴍᴜsɪᴄ)](https://github.com/THEMADMAXPRO/ARYANMUSIC)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ᴡᴇʟᴄᴏᴍᴇ+ᴛᴏ+ᴀʀʏᴀɴ+✘+ᴍᴜsɪᴄ)](https://github.com/Shamim077/MOBIUSXMUSICBOT)
 
 <h2 align="center">
-    ──「 ᴀʀʏᴀɴ ✘ ᴍᴜsɪᴄ 」──
+    ──「 ɢᴏᴊᴏ ✘ ᴍᴜsɪᴄ 」──
 </h2>
 <p align="center">
   <img src="https://telegra.ph/file/119a308c5dd73dc74fccd.jpg">
