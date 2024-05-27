@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import YouTube, app
-from ARYAN.core.call import ARYAN
-from ARYAN.misc import db
-from ARYAN.utils import AdminRightsCheck, seconds_to_min
-from ARYAN.utils.inline import close_markup
+from GOJO import YouTube, app
+from GOJO.core.call import ARYAN
+from GOJO.misc import db
+from GOJO.utils import AdminRightsCheck, seconds_to_min
+from GOJO.utils.inline import close_markup
 from config import BANNED_USERS
 
 
@@ -56,7 +56,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
     if "index_" in file_path:
         file_path = playing[0]["vidid"]
     try:
-        await ARYAN.seek_stream(
+        await GOJO.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
