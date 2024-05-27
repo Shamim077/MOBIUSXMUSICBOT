@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from ARYAN import LOGGER, YouTube, app
-from ARYAN.misc import db
-from ARYAN.utils.database import (
+from GOJO import LOGGER, YouTube, app
+from GOJO.misc import db
+from GOJO.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from ARYAN.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from ARYAN.utils.exceptions import AssistantErr
-from ARYAN.utils.formatters import check_duration, seconds_to_min, speed_converter
-from ARYAN.utils.inline.play import stream_markup
-from ARYAN.utils.stream.autoclear import auto_clean
-from ARYAN.utils.thumbnails import get_thumb
+from GOJO.utils.exceptions import AssistantErr
+from GOJO.utils.formatters import check_duration, seconds_to_min, speed_converter
+from GOJO.utils.inline.play import stream_markup
+from GOJO.utils.stream.autoclear import auto_clean
+from GOJO.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
@@ -51,7 +51,7 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="ARYANXAss1",
+            name="GOJOXAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -61,7 +61,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot2 = Client(
-            name="ARYANXAss2",
+            name="GOJOAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -71,7 +71,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot3 = Client(
-            name="ARYANXAss3",
+            name="GOJOXAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -81,7 +81,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot4 = Client(
-            name="ARYANXAss4",
+            name="GOJOXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -91,7 +91,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot5 = Client(
-            name="ARYANXAss5",
+            name="GOJOXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
