@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.utils.database import get_loop, set_loop
-from ARYAN.utils.decorators import AdminRightsCheck
-from ARYAN.utils.inline import close_markup
+from GOJO import app
+from GOJO.utils.database import get_loop, set_loop
+from GOJO.utils.decorators import AdminRightsCheck
+from GOJO.utils.inline import close_markup
 from config import BANNED_USERS
 
 
