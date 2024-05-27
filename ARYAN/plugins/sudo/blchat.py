@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from ARYAN.utils.decorators.language import language
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from GOJO.utils.decorators.language import language
 from config import BANNED_USERS
 
 
