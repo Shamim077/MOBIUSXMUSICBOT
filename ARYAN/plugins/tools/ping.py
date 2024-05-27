@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.core.call import ARYAN
-from ARYAN.utils import bot_sys_stats
-from ARYAN.utils.decorators.language import language
-from ARYAN.utils.inline import add_markup
+from GOJO import app
+from GOJO.core.call import ARYAN
+from GOJO.utils import bot_sys_stats
+from GOJO.utils.decorators.language import language
+from GOJO.utils.inline import add_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
