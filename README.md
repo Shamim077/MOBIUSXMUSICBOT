@@ -1,23 +1,23 @@
 <h2 align="center">
     
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ᴡᴇʟᴄᴏᴍᴇ+ᴛᴏ+ᴀʀʏᴀɴ+✘+ᴍᴜsɪᴄ)](https://github.com/Shamim077/MOBIUSXMUSICBOT)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ᴡᴇʟᴄᴏᴍᴇ+ᴛᴏ+ɢᴏᴊᴏ+✘+ᴍᴜsɪᴄ)](https://github.com/Shamim077/MOBIUSXMUSICBOT)
 
 <h2 align="center">
-    ──「 ɢᴏᴊᴏ ✘ ᴍᴜsɪᴄ 」──
+    ──「 𝐆𝐎𝐉𝐎 ダ 𝐌𝐔𝐒𝐈𝐂 」──
 </h2>
 <p align="center">
-  <img src="https://telegra.ph/file/119a308c5dd73dc74fccd.jpg">
+  <img src="https://telegra.ph/file/49d74a7e7451e3ef9c5c9.jpg">
 </p>
 
 <p align="center">
-<a href="https://github.com/THEMADMAXPRO/ARYANMUSIC/stargazers"><img src="https://img.shields.io/github/stars/THEMADMAXPRO/ARYANMUSIC?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/THEMADMAXPRO/ARYANMUSIC/network/members"> <img src="https://img.shields.io/github/forks/THEMADMAXPRO/ARYANMUSIC?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/Shamim077/MOBIUSXMUSICBOT/stargazers"><img src="https://img.shields.io/github/stars/Shamim077/MOBIUSXMUSICBOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/Shamim077/MOBIUSCMUSICBOT/network/members"> <img src="https://img.shields.io/github/forks/Shamim077/MOBIUSXMUSICBOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/THEMADMAXPRO/ARYANMUSIC/commits/shaeep043"> <img src="https://img.shields.io/github/last-commit/THEMADMAXPRO/ARYANMUSIC?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/Shamim077/MOBIUSXMUSICBOT/commits/shaeep043"> <img src="https://img.shields.io/github/last-commit/Shamim077/MOBIUSXMUSICBOT?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/119a308c5dd73dc74fccd.jpg">
+  <img src="https://telegra.ph/file/49d74a7e7451e3ef9c5c9.jpg">
 </p>
 
 <h3 align="center">
@@ -30,7 +30,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/THEMADMAXPRO/ARYANMUSIC/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/Shmamim077/MOBIUSXMUSICBOT/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -42,7 +42,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/THEMADMAXPRO/ARYANMUSIC && cd ARYANMUSIC`
+`git clone https://github.com/Shamim077/MOBIUSXMUSICBOT && cd ARYANMUSIC`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
@@ -64,11 +64,11 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 
 <p align="center">
-<a href="https://telegram.me/VOICEOFHEART0"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/NEETJEECRACKERS1"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://telegram.me/STATUSDAIRY2"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/GOJOXCOPYRIGHT"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <h3 align="center">
@@ -76,9 +76,9 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://github.com/THEMADMAXPRO"> <img src="https://img.shields.io/badge/⏤͟͟͞𝐀 𝐑 𝐘 𝐀 𝐍 [•ᴧғᴋ•]™ [🇮🇳]-black?style=for-the-badge&logo=github" alt="⏤͟͟͞𝐀 𝐑 𝐘 𝐀 𝐍 [•ᴧғᴋ•]™ [🇮🇳]" /> </a>
+<a href="https://github.com/Shamim077"> <img src="https://img.shields.io/badge/⏤͟͟͞𝗚 𝗢 𝗝 𝗢 [•ᴧғᴋ•]™ [🇮🇳]-black?style=for-the-badge&logo=github" alt="⏤͟͟͞𝗚 𝗢 𝗝 𝗢 [•ᴧғᴋ•]™ [🇮🇳]" /> </a>
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [𝐀𝐑𝐘𝐀𝐍](https://t.me/ABOUT_ARYAN13) </b>
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [𝗚𝗢𝗝𝗢](https://t.me/GOJOXCOPYRIGHT) </b>
 
 
