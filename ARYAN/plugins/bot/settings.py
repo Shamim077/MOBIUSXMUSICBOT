@@ -10,8 +10,8 @@ from pyrogram.types import (
     InputMediaVideo,
 )
 
-from ARYAN import app
-from ARYAN.utils.database import (
+from GOJO import app
+from GOJO.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -27,16 +27,16 @@ from ARYAN.utils.database import (
     skip_off,
     skip_on,
 )
-from ARYAN.utils.decorators.admins import ActualAdminCB
-from ARYAN.utils.decorators.language import language, languageCB
-from ARYAN.utils.inline.settings import (
+from GOJO.utils.decorators.admins import ActualAdminCB
+from GOJO.utils.decorators.language import language, languageCB
+from GOJO.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from ARYAN.utils.inline import source_markup, lood_markup
-from ARYAN.utils.inline.start import private_panel
+from GOJO.utils.inline import source_markup, lood_markup
+from GOJO.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID, MUSIC_BOT_NAME, START_IMG_URL
 
 
@@ -62,7 +62,7 @@ async def gib_repo(client, CallbackQuery, _):
 @languageCB
 async def support(client, CallbackQuery, _):
     await CallbackQuery.edit_message_text(
-        text="๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.\n\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ ˹ᴇᴍᴍᴀ ✘ ᴍᴜsɪᴄ˼ ♪ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ ˹ᴇᴍᴍᴀ ✘ ᴍᴜsɪᴄ˼ ♪, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
+        text="๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.\n\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ ˹ ɢᴏᴊᴏ ✘ ᴍᴜsɪᴄ˼ ♪ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ ˹ᴇᴍᴍᴀ ✘ ᴍᴜsɪᴄ˼ ♪, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
         reply_markup=lood_markup(_))
     
 
