@@ -3,11 +3,11 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from ARYAN import app
-from ARYAN.utils import first_page, second_page
-from ARYAN.utils.database import get_lang
-from ARYAN.utils.decorators.language import LanguageStart, languageCB
-from ARYAN.utils.inline.help import help_back_markup, private_help_panel
+from GOJO import app
+from GOJO.utils import first_page, second_page
+from GOJO.utils.database import get_lang
+from GOJO.utils.decorators.language import LanguageStart, languageCB
+from GOJO.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 from ARYAN.misc import SUDOERS
