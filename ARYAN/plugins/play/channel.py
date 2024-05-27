@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.utils.database import set_cmode
-from ARYAN.utils.decorators.admins import AdminActual
+from GOJO import app
+from GOJO.utils.database import set_cmode
+from GOJO.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 
