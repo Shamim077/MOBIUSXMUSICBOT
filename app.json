@@ -1,12 +1,12 @@
 {
-    "name": "ᴀʀʏᴀɴ ダ ᴍᴜsɪᴄ",
+    "name": "ɢᴏᴊᴏ ダ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/7ec3b010624cc49644454.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "ARYAN",
+    "GOJO",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
