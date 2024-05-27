@@ -10,9 +10,9 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from ARYAN import app
-from ARYAN.misc import HAPP, SUDOERS, XCB
-from ARYAN.utils.database import (
+from GOJO import app
+from GOJO.misc import HAPP, SUDOERS, XCB
+from GOJO.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
