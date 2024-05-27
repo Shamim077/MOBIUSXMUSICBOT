@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils.database import (
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from ARYAN.utils.decorators.language import language
-from ARYAN.utils.formatters import alpha_to_int
+from GOJO.utils.decorators.language import language
+from GOJO.utils.formatters import alpha_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
