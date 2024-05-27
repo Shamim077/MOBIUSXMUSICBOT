@@ -1,10 +1,10 @@
 import requests
 import random
-from ARYAN import app, userbot
-from ARYAN.misc import SUDOERS
+from GOJO import app, userbot
+from GOJO.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from ARYAN.utils.aryan_ban import admin_filter
+from GOJO.utils.aryan_ban import admin_filter
 
 
 
