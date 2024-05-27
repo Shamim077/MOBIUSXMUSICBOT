@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils.decorators.language import language
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils.decorators.language import language
 
 
 def testspeed(m, _):
