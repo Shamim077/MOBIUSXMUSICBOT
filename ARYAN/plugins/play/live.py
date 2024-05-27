@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from ARYAN import YouTube, app
-from ARYAN.utils.channelplay import get_channeplayCB
-from ARYAN.utils.decorators.language import languageCB
-from ARYAN.utils.stream.stream import stream
+from GOJO import YouTube, app
+from GOJO.utils.channelplay import get_channeplayCB
+from GOJO.utils.decorators.language import languageCB
+from GOJO.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
