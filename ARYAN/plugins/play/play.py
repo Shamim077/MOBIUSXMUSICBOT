@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from ARYAN import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from ARYAN.core.call import ARYAN
-from ARYAN.utils import seconds_to_min, time_to_seconds
-from ARYAN.utils.channelplay import get_channeplayCB
-from ARYAN.utils.decorators.language import languageCB
-from ARYAN.utils.decorators.play import PlayWrapper
-from ARYAN.utils.formatters import formats
-from ARYAN.utils.inline import (
+from GOJO import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from GOJO.core.call import ARYAN
+from GOJO.utils import seconds_to_min, time_to_seconds
+from GOJO.utils.channelplay import get_channeplayCB
+from GOJO.utils.decorators.language import languageCB
+from GOJO.utils.decorators.play import PlayWrapper
+from GOJO.utils.formatters import formats
+from GOJO.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from ARYAN.utils.logger import play_logs
-from ARYAN.utils.stream.stream import stream
+from GOJO.utils.logger import play_logs
+from GOJO.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
