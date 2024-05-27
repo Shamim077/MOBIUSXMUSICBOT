@@ -1,7 +1,7 @@
 import asyncio
 
-from ARYAN.misc import db
-from ARYAN.utils.database import get_active_chats, is_music_playing
+from GOJO.misc import db
+from GOJO.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
