@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from ARYAN import app
-from ARYAN.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from ARYAN.utils.decorators import language
-from ARYAN.utils.inline.settings import playmode_users_markup
+from GOJO import app
+from GOJO.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from GOJO.utils.decorators import language
+from GOJO.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
