@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.core.call import ARYAN
+from GOJO import app
+from GOJO.core.call import GOJO
 
 welcome = 20
 close = 30
