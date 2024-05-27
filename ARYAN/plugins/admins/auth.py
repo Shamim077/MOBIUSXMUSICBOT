@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.utils import extract_user, int_to_alpha
-from ARYAN.utils.database import (
+from GOJO import app
+from GOJO.utils import extract_user, int_to_alpha
+from GOJO.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from ARYAN.utils.decorators import AdminActual, language
-from ARYAN.utils.inline import close_markup
+from GOJO.utils.decorators import AdminActual, language
+from GOJO.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
