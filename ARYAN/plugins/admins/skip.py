@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from ARYAN import YouTube, app
-from ARYAN.core.call import ARYAN
-from ARYAN.misc import db
-from ARYAN.utils.database import get_loop
-from ARYAN.utils.decorators import AdminRightsCheck
-from ARYAN.utils.inline import close_markup, stream_markup
-from ARYAN.utils.stream.autoclear import auto_clean
-from ARYAN.utils.thumbnails import get_thumb
+from GOJO import YouTube, app
+from GOJO.core.call import GOJO
+from GOJO.misc import db
+from GOJO.utils.database import get_loop
+from GOJO.utils.decorators import AdminRightsCheck
+from GOJO.utils.inline import close_markup, stream_markup
+from GOJO.utils.stream.autoclear import auto_clean
+from GOJO.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
@@ -164,7 +164,7 @@ async def skip(cli, message: Message, _, chat_id):
         await mystic.delete()
     elif "index_" in queued:
         try:
-            await ARYAN.skip_stream(chat_id, videoid, video=status)
+            await GOJO.skip_stream(chat_id, videoid, video=status)
         except:
             return await message.reply_text(_["call_6"])
         button = stream_markup(_, chat_id)
@@ -186,7 +186,7 @@ async def skip(cli, message: Message, _, chat_id):
             except:
                 image = None
         try:
-            await ARYAN.skip_stream(chat_id, queued, video=status, image=image)
+            await GOJO.skip_stream(chat_id, queued, video=status, image=image)
         except:
             return await message.reply_text(_["call_6"])
         if videoid == "telegram":
