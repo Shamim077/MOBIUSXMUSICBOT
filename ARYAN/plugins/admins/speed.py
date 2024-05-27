@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.core.call import ARYAN
-from ARYAN.misc import SUDOERS, db
-from ARYAN.utils import AdminRightsCheck
-from ARYAN.utils.database import is_active_chat, is_nonadmin_chat
-from ARYAN.utils.decorators.language import languageCB
-from ARYAN.utils.inline import close_markup, speed_markup
+from GOJO import app
+from GOJO.core.call import ARYAN
+from GOJO.misc import SUDOERS, db
+from GOJO.utils import AdminRightsCheck
+from GOJO.utils.database import is_active_chat, is_nonadmin_chat
+from GOJO.utils.decorators.language import languageCB
+from GOJO.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await ARYAN.speedup_stream(
+        await GOJO.speedup_stream(
             chat_id,
             file_path,
             speed,
