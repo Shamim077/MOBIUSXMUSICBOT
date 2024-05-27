@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from ARYAN import app
-from ARYAN.core.call import ARYAN, autoend
-from ARYAN.utils.database import get_client, is_active_chat, is_autoend
+from GOJO import app
+from GOJO.core.call import GOJO, autoend
+from GOJO.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from ARYAN.core.userbot import assistants
+            from GOJO.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await ARYAN.stop_stream(chat_id)
+                    await GOJO.stop_stream(chat_id)
                 except:
                     continue
                 try:
