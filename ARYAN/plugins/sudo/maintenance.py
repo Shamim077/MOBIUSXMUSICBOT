@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ARYAN import app
-from ARYAN.misc import SUDOERS
-from ARYAN.utils.database import (
+from GOJO import app
+from GOJO.misc import SUDOERS
+from GOJO.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
