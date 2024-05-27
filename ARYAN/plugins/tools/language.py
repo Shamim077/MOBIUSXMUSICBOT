@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from ARYAN import app
-from ARYAN.utils.database import get_lang, set_lang
-from ARYAN.utils.decorators import ActualAdminCB, language, languageCB
+from GOJO import app
+from GOJO.utils.database import get_lang, set_lang
+from GOJO.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
